@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Eater';
+    src: url('../assets/fonts/Eater.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nosifier';
+    src: url('../assets/fonts/Nosifer.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url('../assets/fonts/Montserrat.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body, html {
+    font-family: 'Monserrat';
+    background-color: black;
+    color: white;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+section:nth-child(1){
+    background-image: url("../img/background2.png");
+}
+section:nth-child(2){
+    background-image: url("../img/web1.png");
+    background-position: bottom left;
+    background-size: auto;
+}
+section:nth-child(3){
+    background-image: url("../img/web2.png");
+    background-position: top left;
+    background-size: auto;
+}
+section:nth-child(4){
+    background-image: url("../img/background3.png");
+    align-items: start;
+}
+
+h2 {
+    font-family:'Eater';
+    color: #ff5003;
+}
+
+h4 {
+    font-family:'Nosifier';
+    color: #ff5003;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+.tittle-section {
+    margin-bottom: 50px;
+}
